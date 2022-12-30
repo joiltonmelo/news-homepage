@@ -132,6 +132,8 @@ cursor: pointer;
 .new .last-new p {
 margin-bottom:10px; 
 line-height:24px;
+color:#cacbe0;
+font-size: 14px;
 }
 
 hr.line {border: 1px solid #5f5f79; }
@@ -202,12 +204,13 @@ header {
 
 
 header ul {
-    display: flex;
-    align-items: center;
-    gap: 22px;
-    justify-content: space-between;
+   
+    gap: 11px;
+    
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 .colunas {
@@ -229,9 +232,9 @@ header ul {
 
 
 .principal h1 {
-
-    font-size: 42px;
-    line-height: 42px;
+ 
+ font-size: 48px;
+ line-height: 46px;
 }
 
 .principal p {
@@ -264,6 +267,7 @@ header ul {
     gap: 30px;
     margin-bottom: 30px;
 }
+
 
 
 .btn {
