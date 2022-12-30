@@ -20,7 +20,7 @@ a {
 display: block;
 text-decoration: none;
 color:#615e67;
-padding: 5px;
+padding: 10px;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ justify-content: space-between;
 header ul {
 display: flex;
 align-items: center;
-gap: 40px;
+gap: 28px;
 }
 
 .principal {
@@ -205,10 +205,9 @@ header {
 
 header ul {
    
-    gap: 11px;
-    
+    gap: 14px;
     margin-top: 30px;
-    font-size: 11px;
+    font-size: 9px;
     text-transform: uppercase;
     font-weight: bold;
 }
