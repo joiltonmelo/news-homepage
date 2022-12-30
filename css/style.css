@@ -223,10 +223,16 @@ header ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 24px;
     flex-direction: column;
 }
 
+
+.principal h1 {
+
+    font-size: 42px;
+    line-height: 42px;
+}
 
 .principal p {
    
@@ -236,6 +242,11 @@ header ul {
 .new {
     
     margin-top: 60px;
+}
+
+.new h2 {
+
+    font-size: 32px;
 }
 
 .notice {
@@ -252,6 +263,15 @@ header ul {
     justify-content: space-between;
     gap: 30px;
     margin-bottom: 30px;
+}
+
+
+.btn {
+    width: 100%;
+}
+
+.btn:hover {
+    width: 100%;
 }
 
 }
