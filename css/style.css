@@ -20,22 +20,22 @@ background-color: transparent;
 display: block;
 text-decoration: none;
 color:#615e67;
-padding: 8px;
+padding: 0.5em;
 }
 
 .item-link:hover {
 display: block;
 text-decoration: none;
 color:#f35d4f;
-padding: 8px;
+padding: 0.5em;
 }
 
 .container {
-padding:0 20px;
+padding:0 1.25em;
 width: 100%;
-max-width:1150px;
+max-width:71.875em;
 margin: 0 auto;
-margin-top: 80px;
+margin-top: 5em;
 }
 
 header {
@@ -47,42 +47,38 @@ justify-content: space-between;
 header ul {
 display: flex;
 align-items: center;
-gap: 28px;
-}
-
-.principal {
-/*margin-top: 50px;*/
+gap: 1.75em;
 }
 
 .principal p {
-max-width:350px;
-line-height:24px;
+max-width:21.875em;
+line-height:1.5em;
 color:#615e67;
-margin-bottom: 22px;
+margin-bottom: 1.375em;
 }
 
 .principal h1 {
-max-width: 350px;
-font-size: 62px;
+max-width: 5.8em;
+font-size: 3.875rem;
 font-weight: bold;
-line-height: 58px;
+line-height: 1em;
 color:#00001a;
 }
 
 .banner {
-max-width:730px;
-border-radius: 5px;
+max-width:45.625em;
+border-radius: 0.313em;
 width:100%;
 }
 
 .btn {
 background-color: #f35d4f;
-padding:17px 40px;
+padding:1.063em 2.5em;
 text-transform: uppercase ;
-font-size: 16px;
+font-size: 1rem;
 font-weight: bold;
 color:#fff;
-border-radius: 5px;
+border-radius: 0.313em;
 cursor: pointer;
 }
 
@@ -92,30 +88,30 @@ color: #fff;
 }
 
 .principal .left {
-max-width:730px;
+max-width:46em;
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin-top: 40px;
+margin-top: 2.2em;
 }
 
 .new {
-max-width:350px;
+max-width:21.875em;
 background-color:#00001a;
 color:#fff;
-padding: 22px;
-border-radius: 5px;
+padding: 1.375em;
+border-radius: 0.313em;
 }
 
 .new h2 {
-margin-bottom:10px;
-font-size:42px;
+margin-bottom:0.625em;
+font-size:2.63rem;
 color:#e9a94f;
 }
 
 .new .last-new {
-margin-top:30px;
-margin-bottom:30px;
+margin-top: 2.1em;
+margin-bottom: 2.1em;
 }
 
 .new .last-new h3 {
@@ -128,35 +124,35 @@ cursor: pointer;
 }
 
 .new .last-new p {
-margin-bottom:10px; 
-line-height:24px;
+margin-bottom:0.6em; 
+line-height:1.5em;
 color:#cacbe0;
-font-size: 14px;
+font-size: 0.8750rem;
 }
 
-hr.line {border: 1px solid #5f5f79; }
+hr.line {border: 0.063em solid #5f5f79; }
 
 .colunas {
 display: flex;
 align-items: flex-start;
 justify-content: space-between;
-margin-top: 50px;
+margin-top: 3.125em;
 }
 
 .notice {
-margin-top:60px;
+margin-top:3.75em;
 display: flex;
 align-items: center;
 justify-content: space-between;
 }
 
 .notice .new-notice .text-notice {
-max-width: 220px;
+max-width: 13.75em;
 }
 
 .img-notice {
-max-width:100px;
-border-radius: 5px;
+max-width:6.25em;
+border-radius: 0.313em;
 width:100%;
 }
 
@@ -164,18 +160,18 @@ width:100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
-gap:30px;
+gap:1.875em;
 }
 
 .new-notice p {
 color:#615e67;
-font-size:14px;
-line-height:20px;
+font-size:0.8750rem;
+line-height:1.25em;
 }
 
 .new-notice h4 {
-margin-top:10px;
-margin-bottom:10px;
+margin-top:0.625em;
+margin-bottom:0.625em;
 color:#00001a;
 }
 
@@ -186,16 +182,16 @@ cursor: pointer;
 
 .new-notice h2 {
 color:#c8c6d1;
-font-size:30px;
+font-size:1.88rem;
 }
 
 
-/*RESPONSIVO*/
+/*RESPONSIVE*/
 
-@media (max-width: 480px) {
+@media (max-width: 30em) {
 
 .container {
-    margin-top: 32px;
+    margin-top: 2em;
 }
 
 header {
@@ -207,9 +203,9 @@ header {
 
 header ul {
    
-    gap: 13px;
-    margin-top: 30px;
-    font-size: 13px;
+    gap: 1.0em;
+    margin-top: 1.875em;
+    font-size: 0.8125rem;
     text-transform: uppercase;
     font-weight: bold;
 }
@@ -222,43 +218,43 @@ font-weight: bold;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    margin-top: 32px;
+    margin-top: 2em;
     flex-direction: column;
 }
 
 .principal .left {
-    max-width: 730px;
+    max-width: 45.6em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 24px;
+    margin-top: 1.5em;
     flex-direction: column;
 }
 
 
 .principal h1 {
- 
- font-size: 48px;
- line-height: 46px;
+ max-width: 11em;
+ font-size: 3.00rem;
+ line-height: 1em;
 }
 
 .principal p {
    
-    margin-top: 22px;
+    margin-top: 1.375em;
 }
 
 .new {
     
-    margin-top: 60px;
+    margin-top: 3.75em;
 }
 
 .new h2 {
 
-    font-size: 32px;
+    font-size: 2.00rem;
 }
 
 .notice {
-    margin-top: 60px;
+    margin-top: 3.75em;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -269,8 +265,8 @@ font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 30px;
+    gap: 1.875em;
+    margin-bottom: 1.875em;
 }
 
 
